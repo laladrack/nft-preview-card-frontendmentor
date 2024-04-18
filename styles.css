@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+html{
+    display: flex;
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: 'Outfit';
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+body{
+    scale: 75%;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px 3px hsl(215, 44%, 8%);
+}
+
+#nft{
+    max-height: auto;
+    max-width: 425px;
+    border-radius: 20px;
+    opacity: 1;
+    box-shadow: 1px 1px 10px 1px rgb(21, 21, 43);
+}
+
+#view{
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+}
+
+.nft-images{
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    
+}
+
+.nft-images:hover > #nft{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.nft-images:hover > #view {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.title{
+    font-weight: 600;
+}
+
+.description{
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 400px;
+    color: hsl(215, 51%, 70%);
+    margin: 0;
+}
+
+.stuff{
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding-bottom: 4;
+}
+
+.price{
+    justify-items: flex-start;
+    padding-right: 8px;
+    font-weight: 400;
+}
+
+.time{
+    padding-right: 8px;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+}
+
+.src{
+    display: flex;
+    border-top: 1px solid hsl(215, 27%, 48%);
+    padding-top: 16px;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+}
+
+#avatar{
+    align-self: center;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.creation > a{
+    color: white;
+    cursor: pointer;
+}
+
